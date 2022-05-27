@@ -141,6 +141,10 @@ namespace EDexamenT6a8
             return NotaFinaldelCurso;
         }
 
+        ///<summary>
+        ///<remarks>He quitado la clase que estaba pendiente de hacer y la he puesto en una clase aparte VER PDF.</remarks>
+        ///</summary>
+
 }
 
 
