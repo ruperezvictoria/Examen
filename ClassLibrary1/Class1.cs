@@ -75,7 +75,7 @@ namespace EDexamenT6a8
         ///<summary>
         ///<para>Introduce una nota al sistema</para>
         ////<param>Notas correspondientes</param>
-        ///He usado la Indentación para que los parametros entren todos juntos en una misma linea
+        ///<remarks>He usado la Indentación para que los parametros entren todos juntos en una misma linea</remarks>
         ///</summary>
         public void IntroducirlasNotas(double notadelExamen1, double notadelExamen2, double notadelExamen3,
                                        double notadelasPracticas1, double notadelasPracticas2, double notadelasPracticas3)
@@ -118,7 +118,7 @@ namespace EDexamenT6a8
          ///<para>Se calculan las notas teniendo un 20% de la nota de las prácticas y un 80% la nota del examen</para>
          ///////<param>Notas de los examenes de un trimestre dado y Notas de las practicas del trimestre dado</param>
          ///<returns>devuelve nota de cada trimestre</returns>
-         ///Tenemos 3 métodos iguales. Lo extraigo y creo un método unico. Le cambie el nombre para que sea más claro.
+         ///<remarks>Tenemos 3 métodos iguales. Lo extraigo y creo un método unico. Le cambie el nombre para que sea más claro.</remarks>
          ///</summary>
         public double CalculoDeNotaTrimestral(double notadelExamen1, double notadelasPracticas1)
         {    
@@ -133,7 +133,7 @@ namespace EDexamenT6a8
         ///<summary>
         ///<para>Nota final del curso</para>
         //////<returns>devuelve la nota final</returns>
-        ///Renombramos el método para que sea más claro lo que hace
+        ///<remarks>Renombramos el método para que sea más claro lo que hace</remarks>
         ///</summary>
         public double CalculoNotaFinal()
         {   
